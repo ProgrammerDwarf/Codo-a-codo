@@ -1,0 +1,31 @@
+/* Esto es un comentario */
+
+/* selector de tipo*/
+p {
+    font-size: x-large;
+    color: black;
+}
+
+/* Selector de class*/
+.pDistinto {
+    font-size: xx-large;
+    color: black;
+    background-color: blue;
+}
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;
+  }
+
+
+/* Selector por ID*/
+#link_externo{
+    font-size: smaller;
+    color: darkblue;
+}
+
+footer {
+    text-align: left;
+}
