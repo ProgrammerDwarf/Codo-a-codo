@@ -7,38 +7,68 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="../style/main.css">
+  
+    <title>SpaceMarket - ¿Qué hacemos?</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <div id="carouselExampleIndicators" class="carousel slide container-md" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <header class="page-header">
+      <div class="nav-wrapper">
+        <nav class="header-nav glass-block">
+          <a href="../index.html" class="logo">SpaceMarket</a>
+          <ul class="menu">
+            <li class="menu-item"><a class="hover-btn" href="./whoarewe.html">Sobre Nosotros</a></li>
+            <li class="menu-item"><a class="hover-btn hover-btn--active" href="./whatwedo.html">¿Qué hacemos?</a></li>
+            <li class="menu-item"><a class="hover-btn" href="./prices.html">Precio</a></li>
+            <li class="menu-item"><a class="hover-btn" href="./contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="content-wrapper second-element">
+          <section class="content glass-block">
+              <h2 class="subtitle">Nuestro planeta fue nuestro punto de partida</h2><br>
+              <p class="paragraph">Creemos que en el universo hay espacio para todos siempre y cuando recordemos que debemos cuidarlo <br> 
+             La tierra fue nuestro punto de partida, nuestro hogar que nos hizo crecer, sin embargo, no todo es color de rosas. <br>
+            Nuestras generaciones pasadas descuidaron nuestro hogar y es por eso que tuvimos que hallar un nuevo lugar.</p>
+            <p class="paragraph">Actualmente estos son los planetas que podemos habitar y en el cual podremos establecer bases</p>
+              
+          </section>
+          <div id="carouselExampleControls" class="carousel first-element slide container-sm" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/mercury.gif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/neptune.gif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/saturn.gif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
+        <ul class="social-icons">
+          <li class="glass-block"><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+          <li class="glass-block" ><a href="#"><i class="icon fab fa-twitter"></i></a></li>
+          <li class="glass-block"><a href="#"><i class="icon fab fa-instagram"></i></a></li>
+        </ul>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../images/earth.gif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../images/jupiter.gif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../images/mercury.gif" class="d-block w-100" alt="...">
-        </div>
+      <footer class="glass-block">
+        <p>Página realizada por Reinid Valarino</p>
+        </ul>
+      </footer>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </header>
 
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>

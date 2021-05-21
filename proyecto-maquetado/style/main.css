@@ -100,10 +100,15 @@ nav .logo {
 }
 
 
-
-.hover-btn:hover {
+.hover-btn--active {
   background: rgb(177, 177, 177);
   color: rgb(190, 89, 21);
+  box-shadow:  0 5px 10px rgba(0,0,0, 0.1);
+  transition: 0.1s;
+}
+.hover-btn:hover {
+  background: rgb(177, 177, 177);
+  color: black !important;
   box-shadow:  0 5px 10px rgba(0,0,0, 0.1);
   transition: 0.1s;
 }
@@ -227,9 +232,7 @@ footer.glass-block {
     width: 100%;
     top: -3rem;
   }
-  .content-wrapper{
-    flex-direction: ;
-  }
+ 
   .content {
     transform: translateX(0px);
     max-width: 100%;
@@ -282,7 +285,6 @@ footer.glass-block {
   }
   .img-box {
     margin-top: -10%;
-
   }
   .social-icons {
     flex-direction: row ;
@@ -292,4 +294,17 @@ footer.glass-block {
     width: 5rem;
     
   }
+}
+
+/* ===== modificaciones del carrousel ========*/
+.carousel-item{
+  mix-blend-mode: color-dodge;
+}
+.accordion {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 2px;
+}
+.accordion * {
+  color: black;
 }
